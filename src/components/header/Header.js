@@ -11,7 +11,7 @@ import { ReactComponent as Logo } from '../../assets/clothes.svg'
 import './Header.scss'
 
 const Header = ({ currentUser, hidden }) => (
-  <div className='header'>
+  <div className='header' unselectable="on">
     <Link className='logo-container' to="/">
       <Logo className='logo' />
     </Link>

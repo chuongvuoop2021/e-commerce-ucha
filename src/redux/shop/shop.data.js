@@ -246,4 +246,11 @@ const SHOP_DATA = {
   }
 }
 
-export default SHOP_DATA;
+// import useFetchItems from '../../useFetchItems'
+
+// function AllItems() {
+//   const SHOP_DATA = useFetchItems()
+//   return SHOP_DATA
+// }
+
+export default AllItems
